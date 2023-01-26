@@ -5,8 +5,7 @@
         @import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@500&display=swap');
       body {
         font-family: "Asap Condensed", Trebuchet MS, sans-serif!important;
-        background: #222224;
-        background-image: <img src="https://scarletviolet.pokemon.com/_images/news/aug_3/world-map-news.jpg">;
+        background-image: linear-gradient(135deg, #231449, rgb(9, 9, 155));
         font-weight: 500;
         font-size: 18pt;
         letter-spacing: 0.3px;
@@ -18,7 +17,6 @@
         height: 38px;
         background-size: cover;
         box-shadow: black;
-        opacity: 0.7;
         transform-origin: top left;
         transform: scale(0.8) translate(231px,10px);
         z-index: 2;
@@ -88,13 +86,14 @@
 </style>
   <head>
     <div class="interfaceButton">
-      <button type="button" class="inferfaceButtonContent">Project Pokédex</button>
-      <button type="button" class="inferfaceButtonContent">Log In</button>
-      <button type="button" class="inferfaceButtonContent">Pokémon Quizzes</button>
-      <button type="button" class="inferfaceButtonContent">Who's That Pokémon?</button>
-      <button type="button" class="inferfaceButtonContent">Leaderboards</button>
-      <button type="button" class="inferfaceButtonContent">Type Chart</button>
-      <button type="button" class="inferfaceButtonContent">About the Creators</button>
+      <button type="button" class="inferfaceButtonContent" onclick="window.location.href = 'ProjectPokedexHome.html';"><img src="https://www.freeiconspng.com/thumbs/pokeball-png/file-pokeball-png-0.png" style="transform:skewX(20deg);height:22px;width=22px;"></button>
+      <button type="button" class="inferfaceButtonContent" onclick="window.location.href = 'ProjectPokedexLogIn.html';">Log In</button>
+      <button type="button" class="inferfaceButtonContent" onclick="window.location.href = 'ProjectPokedexQuizzes.html';">Pokémon Quizzes</button>
+      <button type="button" class="inferfaceButtonContent" onclick="window.location.href = 'ProjectPokedexWhosThat.html';">Who's That Pokémon?</button>
+      <button type="button" class="inferfaceButtonContent" onclick="window.location.href = 'ProjectPokedexLeaderboards.html';">Leaderboards</button>
+      <button type="button" class="inferfaceButtonContent" onclick="window.location.href = 'ProjectPokedexTypeChart.html';">Type Chart</button>
+      <button type="button" class="inferfaceButtonContent" onclick="window.location.href = 'ProjectPokedexCreatorCredits.html';">About the Creators</button>
+      <button type="button" class="inferfaceButtonContent" onclick="window.location.href = 'https://pokemonshowdown.com';">Pokémon Showdown</button>
     </div>
   </head>
 <body>
