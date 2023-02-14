@@ -1,0 +1,18 @@
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_toggle_hide_show
+ 
+ //dropdown
+ echo "Select a Source:<br>";
+      echo '<select name="source">Select a Source:</option>';
+  	  echo "<option value=''></option>";
+  	  foreach ($result3 as $row){
+  	  echo "<option value=$row[id]>$row[name]</option>";
+	 
+//show all rows in database
+$query2 = "Select * from CPS3740.Customers";
+
+//show spasific in database
+$sql2 = "select mid, cid, c.name, login, password, code, type, cid, amount, mydatetime, note, s.name as Source, TIMESTAMPDIFF(YEAR, c.DOB, NOW()) as age, concat(street,' ', city,' ',state,' ',zipcode) as Address, img from CPS3740_2022F.Money_amaron m, CPS3740.Sources s, CPS3740.Customers c where s.id=m.Source and c.id=m.cid";
+
+//show if value matches value in one or more row of database
+$query2 = "Select * from CPS3740.Customers where login = '$browser_username' and password = '$browser_password'";
+
