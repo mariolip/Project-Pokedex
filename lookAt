@@ -16,3 +16,5 @@ $sql2 = "select mid, cid, c.name, login, password, code, type, cid, amount, myda
 //show if value matches value in one or more row of database
 $query2 = "Select * from CPS3740.Customers where login = '$browser_username' and password = '$browser_password'";
 
+
+https://stackoverflow.com/questions/29636557/getting-answer-from-5-random-multiple-choice-in-php
