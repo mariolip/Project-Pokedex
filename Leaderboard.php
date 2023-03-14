@@ -6,7 +6,7 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "SELECT username, totalpoints FROM MyGuests ORDER BY totalpoints";
+$sql = "SELECT username, totalpoints, rank FROM MyGuests ORDER BY totalpoints";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
