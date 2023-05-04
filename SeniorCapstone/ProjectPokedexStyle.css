@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@500&display=swap');
+
+
+
+body {
+    font-family: "Asap Condensed", Trebuchet MS, sans-serif!important;
+    font-weight: 500;
+    font-size: 18pt;
+    letter-spacing: 0.3px;
+    margin-top: 0px;
+    padding-right: 2px;
+    padding-top: 2px;
+    white-space: nowrap;
+    box-shadow: black;
+    transform-origin: top left;
+}
+.interfaceButton button {
+    color: #222224;
+    border-color: #222224;
+    border-width: 3px;
+    background-color: #f00000;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    margin: 0;
+    transform: skewX(-20deg);
+}
+
+.interfaceButton button:hover{
+    color:black;
+    border-color: #222224;
+    border-width: 3px;
+    background-color: #f00000;
+    background-image: linear-gradient(110deg, darkred, red, darkred);
+}
+.interfaceButton a{
+    color: #222224;
+    font-size: 32px;
+    border-color: #222224;
+    border-width: 3px;
+    background-color: #f00000;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    margin: 0;
+    transform: skewX(-20deg) translate(20px,10px);
+}
+
+.interfaceButton a:hover{
+    color:black;
+    border-color: #222224;
+    border-width: 3px;
+    background-color: #f00000;
+    background-image: linear-gradient(110deg, darkred, red, darkred);
+}
+.inferfaceButtonContent{
+    font-family: "Asap Condensed", Trebuchet MS, sans-serif!important;
+    background-color: #f00000;
+    font-size: 32px;
+    color: #222224;
+    border-color: #222224;
+    border-width: 3px;
+    font-weight: 750; 
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    margin: 10px;
+    display: inline-block;
+    margin: 0;
+    transform: skewX(20deg);
+}
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+img.imgSize {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+form {text-align: center;}
+
+.dexButton button {
+    background-color: #ad8351;
+    color: #222224;
+    border-color: #6e5334;
+    border-width: 12px;
+    cursor:grab;
+    width: 132px;
+    height: 540px;
+    display: inline;
+    border-radius: 10%;
+    border-top: none;
+    border-bottom: none;
+    padding-top: 15px;
+    padding-right: 2px;
+    transform: translate(20px,10px);
+  }
+  .dexButton p{
+    font-family: "Asap Condensed", Trebuchet MS, sans-serif!important;
+      font-weight: 500;
+    font-size: 42pt;
+    text-align: left;
+    text-indent: -165px;
+    transform:rotate(-90deg);
+      }
+  .dexButton button:hover {
+    background-color: #af6f48;
+    border-color: #473622;
+    cursor: grab;
+  }
+  .centering{
+    margin: 0px auto;
+  }
